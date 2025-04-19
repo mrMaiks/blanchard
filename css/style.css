@@ -444,8 +444,14 @@ html {
   color: var(--white);
 }
 
-.events-item__link::before:focus {
-  background: var(--white)
+.events-item__link:hover{
+  color: var(--background-btn);
+}
+
+.events-item__link:active{
+  background-color: unset;
+  outline: none;
+  color: var(--text);
 }
 
 /* Project */
@@ -512,6 +518,26 @@ html {
   padding: 9px 61px 9px 24px;
   border: 1px solid var(--text);
   border-radius: 100px;
+  transition: 0.3s ease-in-out;
+}
+
+.contacts__input:hover {
+  background-color: var(--dark-white);
+}
+
+.contacts__input:focus {
+  background-color: var(--dark-white);
+  outline: none;
+}
+
+.contacts__input:active {
+  color: var(--text);
+  outline: none;
+}
+
+.contacts__input-enable {
+  background-color: var(--dark-white);
+  outline: none;
 }
 
 .contacts__btn {
@@ -523,6 +549,21 @@ html {
   font-size: 18px;
   font-weight: var(--bold);
   line-height: 25px;
+  transition: 0.3s ease-in-out;
+}
+
+.contacts__btn:focus {
+  outline: 1px solid var(--hover);
+}
+
+.contacts__btn:hover {
+  color: var(--white);
+  background-color: var(--focus);
+}
+
+.contacts__btn:active {
+  color: var(--white);
+  background-color: var(--background-btn);
 }
 
 .contacts__links {
