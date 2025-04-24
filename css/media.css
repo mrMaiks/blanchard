@@ -1,4 +1,59 @@
-@media (max-width: 991px) {
+@media (max-width: 1700px) {
+    .container {
+        margin: 0 50px;
+    }
+
+    .header-link-search {
+        position: absolute;
+        right: 10%;
+        top: 4%;
+    }
+
+    .header-nav {
+        width: 100%;
+    }
+
+    .header-nav-list {
+        justify-content: center;
+    }
+
+    .header-link {
+        margin-bottom: 15px;
+    }
+
+    .gallery {
+        background-image: url(../img/birmingham-museums1600px.jpg);
+    }
+
+    .gallery__img {
+        flex-direction: column-reverse;
+    }
+
+    .gallery__form {
+        margin-bottom: 30px;
+    }
+
+    .catalog-item__img {
+        margin-right: 0;
+        margin-bottom: 30px;
+        width: 100%;
+    }
+
+    .catalog-item__descr {
+        max-width: 924px;
+    }
+
+    .events-item__title {
+        max-width: 222px;
+    }
+
+    .events-item__descr {
+        max-width: 222px;
+    }
+}
+
+@media (max-width: 1023px) {
+
 }
 
 @media (max-width: 767px) {

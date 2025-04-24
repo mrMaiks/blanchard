@@ -100,7 +100,11 @@ html {
 } 
 
 .header-link {
-    margin-right: 179px;
+  margin-right: 11%;
+}
+
+.header__links {
+
 }
 
 .header-nav {
@@ -146,11 +150,11 @@ html {
   transition: 0.3s ease-in-out fill;
 }
 
-.header-link__svg path, svg:hover {
+.header-link__svg:hover, path:hover, svg:hover {
   fill: var(--hover);
 }
 
-.header-link__svg path, svg:active {
+.header-link__svg:active path:active, svg:active {
   fill: var(--focus);
 }
 
